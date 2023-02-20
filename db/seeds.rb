@@ -44,9 +44,9 @@ end
 puts "\n\nCréation des attendances"
 
 5.times do
-  Attendance.create!(stripe_customer_id: Faker::Finance.credit_card)
-    #event: Event.all.sample,
-    #user: User.all.sample)
+  Attendance.create!(stripe_customer_id: Faker::Finance.credit_card,
+    event: Event.all.sample,
+    user: User.all.sample)
   puts "Attendance  crée ! "
  
 end
