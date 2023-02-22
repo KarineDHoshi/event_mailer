@@ -67,4 +67,5 @@ end
  gem "faker"
  gem "table_print"
  gem "actionmailer"
+ gem "devise"
 

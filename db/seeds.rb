@@ -23,7 +23,7 @@ puts "\n\nCréation des users"
     last_name: Faker::Name.last_name,
     email: Faker::Internet.email(domain: 'yopmail.com'),
     description: Faker::Lorem.sentences,
-    encrypted_password: Faker::Alphanumeric.alpha(number: 10))
+    password: Faker::Alphanumeric.alpha(number: 10))
     puts "User crée ! "
 end
 
